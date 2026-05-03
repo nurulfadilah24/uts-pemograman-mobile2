@@ -1,7 +1,7 @@
 ## NAMA: NURUL FADILAH
 ## NIM: 312410689
 ## KLS: 312410689
-## DOSEN: 
+## DOSEN: Donny Maulana,, S.Kom., M.M.S.I.
 ## MATA KULIAH: PEMOGRAMAN MOBILE2
 
 ## MONEY TRACK APP
@@ -23,6 +23,7 @@ Money track adalag aplikasi mobile sederhana yang digunakan untuk mecatat dan me
 6. logout sistem.
 
 ## TAMPILAN APLIKASI
+Gambar UI
 1. splash screen 1
     - tampilan awal saat aplikasi dibuka.
     - hanya background warna (loding awal)
