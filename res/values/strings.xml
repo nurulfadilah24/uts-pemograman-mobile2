@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Money Track</string>
+    <string name="title_main">Money Track</string>
+    <string name="btn_start">Mulai</string>
+
+    <string name="searching_location">Mencari lokasi...</string>
+    <string name="location_detected">Lokasi Terdeteksi: %1$s</string>
+    <string name="gps_off">GPS Mati, menggunakan default...</string>
+    <string name="failed_location">Gagal mendapat lokasi...</string>
+
+    <string name="greeting">Hai,</string>
+    <string name="default_username">[Nama Pengguna]</string>
+    <string name="balance_info">Sisa Saldo: %1$s</string>
+    <string name="add_transaction">Tambah\nTransaksi</string>
+
+    <string name="header_add_transaction">Tambah\nTransaksi</string>
+    <string name="hint_income">Pemasukan</string>
+    <string name="hint_expense">Pengeluaran</string>
+    <string name="btn_save">Simpan</string>
+
+    <string-array name="transaction_types">
+        <item>Gaji</item>
+        <item>Makanan</item>
+        <item>Transportasi</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string name="title_report">Laporan Keuangan</string>
+    <string name="label_total_income">Total Pemasukan</string>
+    <string name="label_total_expense">Total Pengeluaran</string>
+    <string name="label_remaining_balance">Sisa Saldo</string>
+    <string name="btn_back_home">Kembali ke Beranda</string>
+    <string name="currency_format">%1$s %2$s</string>
+</resources>

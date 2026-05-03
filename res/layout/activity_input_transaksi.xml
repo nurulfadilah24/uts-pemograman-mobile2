@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22C1D8"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/header_add_transaction"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner_jenis"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/white"
+        android:entries="@array/transaction_types"
+        app:layout_constraintTop_toBottomOf="@+id/tv_header" />
+
+    <EditText
+        android:id="@+id/et_pemasukan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"
+        android:hint="@string/hint_income"
+        android:inputType="number"
+        android:paddingStart="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_jenis" />
+
+    <EditText
+        android:id="@+id/et_pengeluaran"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"
+        android:hint="@string/hint_expense"
+        android:inputType="number"
+        android:paddingStart="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/et_pemasukan" />
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#137577"
+        android:text="@string/btn_save"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

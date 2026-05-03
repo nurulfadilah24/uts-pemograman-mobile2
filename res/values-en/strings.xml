@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Money Track</string>
+    <string name="title_main">Money Track</string>
+    <string name="btn_start">Start</string>
+
+    <string name="searching_location">Searching location...</string>
+    <string name="location_detected">Location detected: %1$s</string>
+    <string name="gps_off">GPS is off, using default...</string>
+    <string name="failed_location">Failed to get location...</string>
+
+    <string name="greeting">Hi,</string>
+    <string name="default_username">[Username]</string>
+    <string name="balance_info">Remaining Balance: %1$s</string>
+    <string name="add_transaction">Add\nTransaction</string>
+
+    <string name="header_add_transaction">Add\nTransaction</string>
+    <string name="hint_income">Income</string>
+    <string name="hint_expense">Expense</string>
+    <string name="btn_save">Save</string>
+
+    <string-array name="transaction_types">
+        <item>Salary</item>
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="title_report">Financial Report</string>
+    <string name="label_total_income">Total Income</string>
+    <string name="label_total_expense">Total Expense</string>
+    <string name="label_remaining_balance">Remaining Balance</string>
+    <string name="btn_back_home">Back to Home</string>
+    <string name="currency_format">%1$s %2$s</string>
+</resources>
